@@ -76,9 +76,9 @@ const Home: BlitzPage = () => {
               {/* Auth */}
 
               <div className={styles.buttonContainer}>
-                <Suspense fallback="Loading...">
+                {/* <Suspense fallback="Loading...">
                   <UserInfo />
-                </Suspense>
+                </Suspense> */}
               </div>
             </div>
 
